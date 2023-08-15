@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto - Codehouse</title>
+    <link rel="stylesheet" href="{{style}}">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
+    <style>
+  /* Navbar links styles */
+  .navbar-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    padding: 0 15px;
+  }
+  
+  .nav-text {
+    font-size: 1.4rem;
+    color: #000; /* Text color for regular links */
+    text-decoration: none;
+  }
+    /* Dropdown styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000; /* Text color for dropdown links */
+    display: block;
+  }
+  
+    </style>
+</head>
+<body>
+<!-- Header -->
+<nav class="navbar navbar-expand-md navbar-light bg-white" id="templatemo_nav_top">
+    <div class="container-fluid">
+        <a class="text-success logo h1 align-self-center" href="home">
+            {{!-- <img src="assets/img/Recurso 3.png" class="img-fluid" style="max-width: 200px; height: auto;" alt="frest_logo"> --}}
+        </a>
+
+        {{!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> --}}
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse w-100" id="navbarNav">
+            <ul class="navbar-nav d-flex flex-grow-1 justify-content-evenly" id="templatemo_main_nav">
+                <li class="nav-item">
+                    <a class="nav-text" href="home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-text dropdown-toggle" href="shop?limit=4&page=1" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Shop</a>
+                    <div class="dropdown-menu">
+                        {{!-- <a class="dropdown-item" href="serum-list.html">Serums</a>
+                        <a class="dropdown-item" href="sunscreens.html">Sunscreens</a> --}}
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-text dropdown-toggle" href="essential" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Essential</a>
+                    <div class="dropdown-menu">
+                        {{!-- <a class="dropdown-item" href="tips.html">Tips</a>
+                        <a class="dropdown-item" href="must_know.html">Must Know</a> --}}
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-text" href="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-text" href="contact">Contact</a>
+                </li>
+                <a class="text-dark text-decoration-none" target="_blank" href="https://www.instagram.com/frestlab/">
+                    <i class="fab fa-instagram fa-lg fa-fw"></i>
+                </a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Close Header -->
+
+    {{{body}}} <!-- Aquí se insertará el contenido de la página específica -->
+            <!-- Start Footer -->
+    <footer class="bg-black" id="tempaltemo_footer">
+        <div class="">
+      
+          <div style="height: 10rem; background-color: white;"></div>
+      
+          
+          <div class="container mt-5 d-flex justify-content-start">
+              <div class="col-md-12 row align-items-center justify-content-between">
+                  <ul class="list-unstyled">
+                      <li><a class="text-decoration-none text-white" href="about">About us</a></li>
+                      <li><a class="text-decoration-none text-white" href="contact">Contact</a></li>
+                    </ul>
+                    <ul class="d-flex justify-content-end">
+                        <a class="text-white" target="_blank" href="https://www.instagram.com/frestlab/">
+                            <i class="fab fa-instagram fa-lg fa-fw"></i>
+                        </a>
+                    </ul>
+                    </div>
+                    </div>
+                    
+                    <div class="w-100 bg-black py-1">
+                      <div class="container">
+                        <div class="pt-2">
+                          <div class="col-12">
+                            <p class="text-left text-white">
+                              &copy; 2023 - Frest lab - All rights reserved
+                              <a rel="sponsored" href="" target="_blank"></a>
+                            </p>
+                          </div>
+                    </div>
+                    <hr class="my-4">
+                </div>
+            </div>
+        </div>
+      </footer>
+    <!-- End Footer -->
+</body>
+</html>

@@ -1,0 +1,474 @@
+/* Typography */
+body,
+ul,
+li,
+p,
+a,
+label,
+input,
+div {
+  font-family: 'karla-ex-light', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  letter-spacing: 1px;
+}
+
+.h1 {
+  font-family: 'karla-ex-light', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+}
+
+.h2 {
+  font-family: 'karla-ex-light', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+}
+
+.karla-light{
+    margin-left: 50px;
+}
+
+.h3 {
+  font-family: 'karla-ex-light', sans-serif;
+  font-size: 22px !important;
+}
+
+/* General */
+.logo {
+  font-weight: 500 !important;
+}
+
+.text-warning {
+  color: var(--color-primary) !important;
+}
+
+.text-muted {
+  color: #bcbcbc !important;
+}
+
+.text-success {
+  color: var(--color-primary) !important;
+}
+
+.text-light {
+  color: #cfd6e1 !important;
+}
+.text-left{
+    color: white;
+    margin-left: 50px;
+}
+.bg-dark {
+  background-color: #212934 !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+.bg-light {
+  background-color: #bcbcbc !important;
+}
+
+.bg-black {
+  background-color: #1d242d !important;
+}
+
+.bg-success {
+  background-color: #fff !important;
+}
+
+.btn-success {
+  background-color: #fff !important;
+  border-color: #212934 !important;
+  color: #212934;
+}
+
+.btn-size.btn-secondary:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.pagination .page-link:hover {
+  color: #000;
+}
+
+.pagination .page-link:hover,
+.pagination .page-link.active {
+  background-color: var(--color-secudary);
+  color: #fff;
+}
+
+/* Nav */
+#templatemo_nav_top {
+  min-height: 40px;
+}
+
+/* #templatemo_nav_top * {
+  font-size: 1.4em !important;
+} */
+
+#templatemo_main_nav a {
+  color: #212934;
+}
+
+#templatemo_main_nav a:hover {
+  color: var(--color-primary);
+}
+
+#templatemo_main_nav .navbar .nav-icon {
+  margin-right: 20px;
+}
+
+/* Hero Carousel */
+#template-mo-zay-hero-carousel {
+  background: #efefef !important;
+}
+
+/* Accordion */
+.templatemo-accordion a {
+  color: #000;
+}
+
+.templatemo-accordion a:hover {
+  color: #333d4a;
+}
+
+/* Shop */
+.shop-top-menu a:hover {
+  color: #3ea94e !important;
+}
+
+/* Product */
+.product-wap {
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.product-wap .product-color-dot.color-dot-red {
+  background: #f71515;
+}
+
+.product-wap .product-color-dot.color-dot-blue {
+  background: #6db4fe;
+}
+
+.product-wap .product-color-dot.color-dot-black {
+  background: #000000;
+}
+
+.product-wap .product-color-dot.color-dot-light {
+  background: #e0e0e0;
+}
+
+.product-wap .product-color-dot.color-dot-green {
+  background: #0bff7e;
+}
+
+.card.product-wap .card .product-overlay {
+  background: rgba(0, 0, 0, .2);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+}
+
+.card.product-wap:hover .card .product-overlay {
+  visibility: visible;
+  opacity: 1;
+}
+
+.card.product-wap a {
+  color: #000;
+}
+
+#carousel-related-product .slick-slide:focus {
+  outline: none !important;
+}
+
+#carousel-related-product .slick-dots li button:before {
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+/* Brand */
+.brand-img {
+  filter: grayscale(100%);
+  opacity: 0.5;
+  transition: .5s;
+}
+
+.brand-img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+/* Carousel Hero */
+#template-mo-zay-hero-carousel .carousel-indicators li {
+  margin-top: -22px;
+  background-color: #fec724;
+}
+
+#template-mo-zay-hero-carousel .carousel-control-next i,
+#template-mo-zay-hero-carousel .carousel-control-prev i {
+  color: #fec724 !important;
+  font-size: 2.8em !important;
+}
+
+/* Carousel Brand */
+.tempaltemo-carousel .h1 {
+  font-size: .5em !important;
+  color: #000 !important;
+}
+
+/* Services */
+.services-icon-wap {
+  transition: .3s;
+}
+
+.services-icon-wap:hover,
+.services-icon-wap:hover i {
+  color: #fff;
+}
+
+.services-icon-wap:hover {
+  background: #3ea94e;
+}
+
+/* Contact map */
+.leaflet-control a,
+.leaflet-control {
+  font-size: 10px !important;
+}
+
+.form-control {
+  border: 1px solid #212529;
+}
+
+/* Footer */
+#tempaltemo_footer a {
+  color: #dcdde1;
+}
+
+#tempaltemo_footer a:hover {
+  color: #68bb7d;
+}
+
+#tempaltemo_footer ul.footer-link-list li {
+  padding-top: 10px;
+}
+
+#tempaltemo_footer ul.footer-icons li {
+  width: 2.6em;
+  height: 2.6em;
+  line-height: 2.6em;
+}
+
+#tempaltemo_footer ul.footer-icons li:hover {
+  background-color: #cfd6e1;
+  transition: .5s;
+}
+
+#tempaltemo_footer ul.footer-icons li:hover i {
+  color: #212934;
+  transition: .5s;
+}
+
+#tempaltemo_footer .border-light {
+  border-color: #2d343f !important;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+.product-wap .h3,
+.product-wap li,
+.product-wap i,
+.product-wap p {
+  font-size: 12px !important;
+}
+
+.product-wap .product-color-dot {
+  width: 6px;
+  height: 6px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #templatemo_main_nav .navbar-nav {
+    max-width: 450px;
+  }
+  .justify-content-end {
+    justify-content: end !important;
+  }
+  .card-description {
+    margin-right: 3rem !important;
+    margin-left: 3rem !important;
+  }
+  .card-text {
+    text-align: center;
+  }
+  .col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.6666666667%;
+  }
+  .row>* {
+    width: 50%;
+  }
+  .image-container img {
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  .image-container:hover img {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #templatemo_main_nav .navbar-nav {
+    max-width: 550px;
+  }
+  #template-mo-zay-hero-carousel .carousel-item {
+    min-height: 30rem !important;
+  }
+  .product-wap .h3,
+  .product-wap li,
+  .product-wap i,
+  .product-wap p {
+    font-size: 18px !important;
+  }
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+  .row>* {
+    width: 33.333333334%;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .row>* {
+    width: 25%;
+  }
+}
+
+
+/*//////////////////////////////////////////////////////////////////*/
+/* Navbar styles */
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+  /* Logo styles */
+  .logo {
+    color: #28a745; /* Text color for the logo */
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  /* Navbar toggler styles */
+  .navbar-toggler {
+    display: none;
+  }
+  
+  /* Navbar links styles */
+  .navbar-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    padding: 0 15px;
+  }
+  
+  .nav-text {
+    font-size: 1.4rem;
+    color: #000; /* Text color for regular links */
+    text-decoration: none;
+  }
+  
+  /* Dropdown styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dropdown-item {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000; /* Text color for dropdown links */
+    display: block;
+  }
+  
+  /* Show the dropdown on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Instagram icon styles */
+  .fa-instagram {
+    color: #000; /* Color for Instagram icon */
+    font-size: 20px;
+    margin-left: 15px;
+  }
+  
+  /* Media query for the responsive navbar toggler */
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      display: block;
+    }
+    
+    .collapse.navbar-collapse:not(.show) {
+      display: none;
+    }
+    
+    .navbar-nav {
+      flex-direction: column;
+    }
+    
+    .nav-item {
+      padding: 5px 0;
+    }
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    }
+    .card {
+    width: 100%;
+    max-width: 250px;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+    }
